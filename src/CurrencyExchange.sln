@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyExchange.Host.WebApi", "CurrencyExchange.Host.WebApi\CurrencyExchange.Host.WebApi.csproj", "{233FB1C0-3A85-43C6-89BC-646833C2B901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyExchange.ECB.Gateway", "CurrencyExchange.ECB.Gateway\CurrencyExchange.ECB.Gateway.csproj", "{B1E0257A-8BD7-4477-9366-EA525674F403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyExchange.Core", "CurrencyExchange.Core\CurrencyExchange.Core.csproj", "{196793EB-A7E0-4655-9F5F-680345108C12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyExchange.Core.Abstractions", "CurremcyExchange.Core.Abstractions\CurrencyExchange.Core.Abstractions.csproj", "{648A36B3-D4B5-44AA-9531-B6B8F1D0EE3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyExchange.Data", "CurrencyExchange.Data\CurrencyExchange.Data.csproj", "{92017EEE-20CC-4A61-AA89-C8BC5C28427A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyExchangeWallet.Tests", "CurrencyExchange.Wallet.Tests\CurrencyExchangeWallet.Tests.csproj", "{FDFD0C25-8792-41C5-92B5-7AD3DD8FCAEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{233FB1C0-3A85-43C6-89BC-646833C2B901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233FB1C0-3A85-43C6-89BC-646833C2B901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233FB1C0-3A85-43C6-89BC-646833C2B901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233FB1C0-3A85-43C6-89BC-646833C2B901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1E0257A-8BD7-4477-9366-EA525674F403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E0257A-8BD7-4477-9366-EA525674F403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E0257A-8BD7-4477-9366-EA525674F403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E0257A-8BD7-4477-9366-EA525674F403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{196793EB-A7E0-4655-9F5F-680345108C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{196793EB-A7E0-4655-9F5F-680345108C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{196793EB-A7E0-4655-9F5F-680345108C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{196793EB-A7E0-4655-9F5F-680345108C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{648A36B3-D4B5-44AA-9531-B6B8F1D0EE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648A36B3-D4B5-44AA-9531-B6B8F1D0EE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648A36B3-D4B5-44AA-9531-B6B8F1D0EE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648A36B3-D4B5-44AA-9531-B6B8F1D0EE3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92017EEE-20CC-4A61-AA89-C8BC5C28427A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92017EEE-20CC-4A61-AA89-C8BC5C28427A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92017EEE-20CC-4A61-AA89-C8BC5C28427A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92017EEE-20CC-4A61-AA89-C8BC5C28427A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDFD0C25-8792-41C5-92B5-7AD3DD8FCAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFD0C25-8792-41C5-92B5-7AD3DD8FCAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFD0C25-8792-41C5-92B5-7AD3DD8FCAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFD0C25-8792-41C5-92B5-7AD3DD8FCAEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
